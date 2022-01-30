@@ -217,6 +217,7 @@ static struct clk_rcg2 gpu_cc_gx_gfx3d_clk_src = {
 <<<<<<< HEAD
 			[VDD_MIN] = 320000000,
 			[VDD_MIN] = 465000000,
+<<<<<<< HEAD
 			[VDD_LOWER] = 600000000,
 			[VDD_LOW] = 745000000,
 			[VDD_NOMINAL] = 820000000,
@@ -231,6 +232,13 @@ static struct clk_rcg2 gpu_cc_gx_gfx3d_clk_src = {
 			[VDD_HIGH] = 900000000,
 			[VDD_HIGH_L1] = 950000000},
 >>>>>>> b5097c25a5b0... Revert "clk: qcom: gpucc-trinket: Undervolt GPU"
+=======
+			[VDD_MIN] = 600000000,
+			[VDD_LOWER] = 745000000,
+			[VDD_LOW] = 820000000,
+			[VDD_NOMINAL] = 900000000,
+			[VDD_NOMINAL_L1] = 950000000},
+>>>>>>> a81b792487fa... Revert "clk/qcom: gpucc-trinket: Relax GPU undervolt a bit"
 	},
 };
 
